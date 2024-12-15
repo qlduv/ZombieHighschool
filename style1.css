@@ -1,0 +1,78 @@
+*{margin: 0; padding: 0; text-decoration: none; list-style-type: none;}
+html, body{
+    /* 비디오를 전체화면으로 맞추고자 할 때, 해상도와 비디오 파일의 크기가 일치하더라도 가끔씩 스크롤이 발생(모바일 프리뷰에서)하는 경우가 있다. F12를 해제하여 브라우저의 개발자 모드를 재진입해 모바일 프리뷰를 다시 시작한다면 해결된다. 이것은 Live server 플러그인의 오류일 수도 있다. */
+    overflow: hidden;
+}
+video{
+    /* 교과서에서는 포지션 픽스드로 저장, 그러나 앱솔루트로 해도 무방하다. */
+    position: absolute;
+    right: 0; bottom: 0;
+    /* 미니멀 위드는 모바일 환경에서 주로 사용하고(블로그 등), 맥스 위드는 웹 환경에서 사용된다. */
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.top{
+    position: fixed;
+    left: 0; bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    /* background-color: #000; */
+    /* opacity: 0.5; */
+    z-index: 10;
+    background: radial-gradient(
+        rgba(110, 110, 110, 0.3) 15%,
+        rgba(0, 0, 0, 0.8) 85%
+    );
+}
+.wrap{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; height: 100%;
+    z-index: 20;
+    /* 정확한 이유는 모르겠지만, 오버플로우 히든을 '모든 객체의 상위 요소'(이 경우에는 wrap 클래스)에 적용시켜야 스크롤이 발생하는 것을 막을 수 있다. */
+    overflow: hidden;
+}
+.logo{
+    display: block; position: absolute;
+    width: auto; height: 14.80686695279%;
+    top: 56.00858369099%; left: 48.55581395349%;
+    transform: translateX(-50%);
+    z-index: 21;
+}
+.chain01{
+    display: block; position: absolute;
+    width: 104.56279069767%; height: 5.57939914163%; aspect-ratio: 52 / 449.62; object-fit: scale-down;
+    top: 73.60515021459%; left: -2.32558139535%;
+    z-index: 21;
+}
+.chain02{
+    display: block; position: absolute;
+    width: 105.36976744186%; height: 7.09763948498%; aspect-ratio: 66.15 / 453.09; object-fit: scale-down;
+    top: 81.02682403433%; left: -2.91627906977%;
+    z-index: 21;
+}
+.bt01{
+    display: block; position: absolute;
+    width: auto; height: 13.1974248927%;
+    top: 70.70815450644%; left: 50%;
+    transform: translateX(-50.23255813953%);
+    z-index: 22;
+}
+.bt02{
+    display: block; position: absolute;
+    width: auto; height: 13.1974248927%;
+    top: 80.57939914163%; left: 50%;
+    transform: translateX(-50.23255813953%);
+    z-index: 22;
+}
+.blackHands{
+    display: block; position: absolute;
+    width: 124.6511627907%; height: auto;
+    top: 84.01287553648%; left: 50%;
+    transform: translate(-50%, -9.01287553648%);
+    z-index: 23; pointer-events: none;
+}

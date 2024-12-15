@@ -1,0 +1,458 @@
+@font-face{
+    font-family:'210Soomyungjo030';
+    src:url('fonts/210Soomyungjo030.woff');
+}
+@font-face{
+    font-family:'210Soomyungjo050';
+    src:url('fonts/210Soomyungjo050.woff');
+}
+@font-face{
+    font-family:'DXHwalpanMyeongjoBold';
+    src:url('fonts/DXHwalpanMyeongjoBold.woff');
+}
+@font-face{
+    font-family:'DXHwalpanMyeongjoMedium';
+    src:url('fonts/DXHwalpanMyeongjoMedium.woff');
+}
+@font-face{
+    font-family:'HeirofLightRegular';
+    src:url('fonts/HeirofLightRegular.woff');
+}
+@font-face{
+    font-family:'NotoSansCJKkr-Bold';
+    src:url('fonts/NotoSansCJKkr-Bold.woff');
+}
+@font-face{
+    font-family:'NotoSansCJKkr-DemiLight';
+    src:url('fonts/NotoSansCJKkr-DemiLight.woff');
+}
+@font-face{
+    font-family:'NotoSansCJKkr-Light';
+    src:url('fonts/NotoSansCJKkr-Light.woff');
+}
+*{margin: 0; padding: 0; text-decoration: none; list-style-type: none;}
+html, body{
+    background-color: #1E1E1E;
+    width: 100%; height: 100%;
+    scroll-behavior: smooth;
+}
+.wrap{
+    position: absolute;
+    width: 430px; height: 2972px;
+    aspect-ratio: 430 / 2972; object-fit: cover;
+    left: 50%; transform: translateX(-50%);
+    overflow: hidden;
+    background-color: #000;
+}
+.dispTxt01{
+    display: block; position: absolute;
+    width: 257px; height: 20px;
+    top: 43px; left: 87px;
+    z-index: 3;
+    color: white;
+    text-align: center;
+    font-family: 'DXHwalpanMyeongjoMedium';
+    font-size: 20px;
+    letter-spacing: 0.3925em;
+    transform: translateX(-1.5%);
+}
+.dispTxt02{
+    display: block; position: absolute;
+    width: 241px; height: 96px;
+    top: 78px; left: 95px;
+    z-index: 3;
+    color: white;
+    text-align: center;
+    font-family: 'DXHwalpanMyeongjoMedium';
+    font-size: 48px;
+    letter-spacing: 0.24em;
+    line-height: 48px;
+    transform: translateX(-3.25%)
+}
+.separatorTxt01{
+    display: block; position: absolute;
+    width: 430px; height: 263px;
+    top: 227px; left: 0;
+    z-index: 3;
+    text-align: center;
+}
+.BG-notebook{
+    display: block; position: absolute;
+    width: 491.62px; height: 387.03px;
+    top: 280px; left: -30.81px;
+    z-index: 2;
+    text-align: center;
+}
+.notebookTxt{
+    display: block; position: absolute;
+    width: 182px; height: 144px;
+    top: 419.94px; left: 123px;
+    z-index: 3;
+    color: #262626;
+    text-align: left;
+    font-size: 20px;
+    line-height: 36px;
+    rotate: -8.88deg;
+    transform: translate(8%, -9%);
+}
+.txtWeight3{font-family: '210Soomyungjo030';}
+.txtWeight5{font-family: '210Soomyungjo050';}
+.BG-hall{
+    display: block; position: absolute;
+    width: 430px; height: 1260px;
+    top: 592px; left: 0;
+    z-index: 1;
+    text-align: center;
+}
+.frame-Archer{
+    position: relative;
+    top: 0;
+}
+.title-Archer{
+    display: block; position: absolute;
+    width: 111px; height: 43px;
+    top: 781px; left: 269px;
+    z-index: 5;
+    color: #000;
+    text-align: right;
+    font-size: 30px;
+    font-family: 'NotoSansCJKkr-Bold';
+}
+.subtitle-Archer{
+    display: block; position: absolute;
+    width: 198px; height: 36px;
+    top: 796px; left: 114px;
+    z-index: 5;
+    color: #9B0000;
+    text-align: right;
+    font-size: 20px;
+    font-family: 'DXHwalpanMyeongjoBold';
+}
+.icon-Archer{
+    display: block; position: absolute;
+    width: 64px; height: 56px;
+    top: 766px; left: 47px;
+    z-index: 5;
+    text-align: center;
+}
+.P-Archer{
+    display: block; position: absolute;
+    width: 430px; height: 239px;
+    top: 544px; left: 0;
+    z-index: 4;
+    text-align: center;
+}
+.F-Archer{
+    display: block; position: absolute;
+    width: 386px; height: 285px;
+    top: 562px; left: 22px;
+    z-index: 3;
+    text-align: center;
+}
+.vid-Archer{
+    display: block; position: absolute;
+    width: 344px; height: 204px;
+    top: 579px; left: 43px;
+    z-index: 2;
+    text-align: center;
+}
+.frame-Medic{
+    position: relative;
+    top: 281px;
+}
+.title-Medic{
+    display: block; position: absolute;
+    width: 111px; height: 43px;
+    top: 781px; left: 269px;
+    z-index: 5;
+    color: #000;
+    text-align: right;
+    font-size: 30px;
+    font-family: 'NotoSansCJKkr-Bold';
+}
+.subtitle-Medic{
+    display: block; position: absolute;
+    width: 198px; height: 36px;
+    top: 796px; left: 114px;
+    z-index: 5;
+    color: #9B0000;
+    text-align: right;
+    font-size: 20px;
+    font-family: 'DXHwalpanMyeongjoBold';
+}
+.icon-Medic{
+    display: block; position: absolute;
+    width: 64px; height: 56px;
+    top: 766px; left: 47px;
+    z-index: 5;
+    text-align: center;
+}
+.P-Medic{
+    display: block; position: absolute;
+    width: 430px; height: 239px;
+    top: 544px; left: 0;
+    z-index: 4;
+    text-align: center;
+}
+.F-Medic{
+    display: block; position: absolute;
+    width: 386px; height: 285px;
+    top: 562px; left: 22px;
+    z-index: 3;
+    text-align: center;
+}
+.vid-Medic{
+    display: block; position: absolute;
+    width: 344px; height: 204px;
+    top: 579px; left: 43px;
+    z-index: 2;
+    text-align: center;
+}
+.frame-Chairman{
+    position: relative;
+    top: 564px;
+}
+.title-Chairman{
+    display: block; position: absolute;
+    width: 111px; height: 43px;
+    top: 781px; left: 269px;
+    z-index: 5;
+    color: #000;
+    text-align: right;
+    font-size: 30px;
+    font-family: 'NotoSansCJKkr-Bold';
+}
+.subtitle-Chairman{
+    display: block; position: absolute;
+    width: 172px; height: 36px;
+    top: 796px; left: 114px;
+    z-index: 5;
+    color: #9B0000;
+    text-align: right;
+    font-size: 20px;
+    font-family: 'DXHwalpanMyeongjoBold';
+}
+.icon-Chairman{
+    display: block; position: absolute;
+    width: 64px; height: 56px;
+    top: 766px; left: 47px;
+    z-index: 5;
+    text-align: center;
+}
+.P-Chairman{
+    display: block; position: absolute;
+    width: 430px; height: 239px;
+    top: 544px; left: 0;
+    z-index: 4;
+    text-align: center;
+}
+.F-Chairman{
+    display: block; position: absolute;
+    width: 386px; height: 285px;
+    top: 562px; left: 22px;
+    z-index: 3;
+    text-align: center;
+}
+.vid-Chairman{
+    display: block; position: absolute;
+    width: 344px; height: 204px;
+    top: 579px; left: 43px;
+    z-index: 2;
+    text-align: center;
+}
+.frame-Fireman{
+    position: relative;
+    top: 846px;
+}
+.title-Fireman{
+    display: block; position: absolute;
+    width: 111px; height: 43px;
+    top: 781px; left: 269px;
+    z-index: 5;
+    color: #000;
+    text-align: right;
+    font-size: 30px;
+    font-family: 'NotoSansCJKkr-Bold';
+}
+.subtitle-Fireman{
+    display: block; position: absolute;
+    width: 143px; height: 36px;
+    top: 796px; left: 114px;
+    z-index: 5;
+    color: #9B0000;
+    text-align: right;
+    font-size: 20px;
+    font-family: 'DXHwalpanMyeongjoBold';
+}
+.icon-Fireman{
+    display: block; position: absolute;
+    width: 64px; height: 56px;
+    top: 766px; left: 47px;
+    z-index: 5;
+    text-align: center;
+}
+.P-Fireman{
+    display: block; position: absolute;
+    width: 430px; height: 239px;
+    top: 544px; left: 0;
+    z-index: 4;
+    text-align: center;
+}
+.F-Fireman{
+    display: block; position: absolute;
+    width: 386px; height: 285px;
+    top: 562px; left: 22px;
+    z-index: 3;
+    text-align: center;
+}
+.vid-Fireman{
+    display: block; position: absolute;
+    width: 344px; height: 204px;
+    top: 579px; left: 43px;
+    z-index: 2;
+    text-align: center;
+}
+.tape01{
+    display: block; position: absolute;
+    width: 430px; height: 158px;
+    top: 577px; left: 0;
+    z-index: 5;
+    text-align: center;
+}
+.tape02{
+    display: block; position: absolute;
+    width: 430px; height: 169px;
+    top: 847px; left: 0;
+    z-index: 5;
+    text-align: center;
+}
+.tape03{
+    display: block; position: absolute;
+    width: 430px; height: 193px;
+    top: 1146px; left: 0;
+    z-index: 5;
+    text-align: center;
+}
+.tape04{
+    display: block; position: absolute;
+    width: 430px; height: 87px;
+    top: 1414px; left: 0;
+    z-index: 5;
+    text-align: center;
+}
+.BG-school{
+    display: block; position: absolute;
+    width: 430px; height: 826px;
+    top: 1628px; left: 0;
+    z-index: 2;
+    text-align: center;
+}
+.separatorTxt02{
+    display: block; position: absolute;
+    width: 310px; height: 177px;
+    top: 1733.32px; left: 94px;
+    z-index: 5;
+    text-align: center;
+}
+.separatorTxt03{
+    display: block; position: absolute;
+    width: 240.4px; height: 158.99px;
+    top: 2197.32px; left: 28px;
+    z-index: 5;
+    text-align: center;
+}
+.char01{
+    display: block; position: absolute;
+    width: 232px; height: 313px;
+    top: 1828px; left: 10px;
+    z-index: 3;
+    text-align: center;
+}
+.char02{
+    display: block; position: absolute;
+    width: 233px; height: 315px;
+    top: 1890px; left: 106px;
+    z-index: 4;
+    text-align: center;
+}
+.char03{
+    display: block; position: absolute;
+    width: 222px; height: 300px;
+    top: 1969px; left: 224px;
+    z-index: 3;
+    text-align: center;
+}
+.BG-killerSmile{
+    display: block; position: absolute;
+    width: 430px; height: 334px;
+    top: 2327px; left: 0;
+    z-index: 1;
+    text-align: center;
+}
+.dispTxt03{
+    display: block; position: absolute;
+    width: 370px; height: 82px;
+    top: 2526px; left: 31px;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    font-family: 'HeirofLightRegular';
+    font-size: 20px;
+    line-height: 34px;
+    text-shadow: 0 4px 4px rgb(0 0 0 / 50%);
+}
+.txtSizeA{font-size: 24px;}
+.txtSizeB{font-size: 32px;}
+footer{
+    display: block; position: relative;
+    width: 430px; height: 311px;
+    top: 2661px; left: 0;
+    background-color: #262626;
+    box-shadow: inset 0 4px 32px 0 rgb(0 0 0 / 75%);
+    color: #fff;
+    font-size: 14px;
+}
+.logo{
+    display: block; position: relative;
+    width: 172px; height: 38px;
+    top: 43px; left: 43px;
+}
+.footerTxt01{
+    display: block; position: absolute;
+    width: 144.4375px; height: 21px;
+    top: 95px; left: 43px;
+    font-family: 'NotoSansCJKkr-Light';
+}
+.footerTxt02{
+    display: block; position: absolute;
+    width: 59px; height: 24px;
+    top: 130px; left: 43px;
+    font-family: 'NotoSansCJKkr-Bold';
+    font-size: 16px;
+}
+.footerTxt03{
+    display: block; position: absolute;
+    width: 30px; height: 24px;
+    top: 206px; left: 43px;
+    font-family: 'NotoSansCJKkr-Bold';
+    font-size: 16px;
+}
+.footerTxt04{
+    display: block; position: absolute;
+    width: 252.5px; height: 21px;
+    top: 209px; left: 86px;
+    font-family: 'NotoSansCJKkr-DemiLight';
+}
+.footerTxt05{
+    display: block; position: absolute;
+    width: 30px; height: 24px;
+    top: 244px; left: 43px;
+    font-family: 'NotoSansCJKkr-Bold';
+    font-size: 16px;
+}
+.footerTxt06{
+    display: block; position: absolute;
+    width: 163px; height: 21px;
+    top: 247px; left: 86px;
+    font-family: 'NotoSansCJKkr-DemiLight';
+}
